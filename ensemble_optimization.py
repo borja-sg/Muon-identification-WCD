@@ -1,4 +1,14 @@
-#Script that optimizes the weights when using an ensemble
+#!/usr/bin/env python
+
+"""Script that optimizes the weights when using an ensemble. It also produces the tables and plots with the results for each ensemble. 
+
+Inputs: 
+    - Exp_ID, 
+    - config_file
+"""
+
+__author__ = "Borja Serrano González"
+__email__ = "borjasg@lip.pt"
 
 import pandas as pd
 import numpy as np
