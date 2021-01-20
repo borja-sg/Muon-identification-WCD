@@ -1,5 +1,13 @@
-#This script trains a XGboost or RandomForest using a cross validation with 5 folds
-#Inputs: Exp_id, config_file (./configs/config-exp2-CNN-SingleMuons-OS.yml), algorithm_to_use: "xgb" for XGBoost and "rf" for RandomForest
+#!/usr/bin/env python
+
+"""This script trains a XGboost or RandomForest using a cross validation with 5 folds
+Inputs: 
+    - Exp_id 
+    - config_file (./configs/config-exp2-CNN-SingleMuons-OS.yml) 
+    - algorithm_to_use: "xgb" for XGBoost and "rf" for RandomForest"""
+
+__author__ = "Borja Serrano González"
+__email__ = "borjasg@lip.pt"
 
 import pandas as pd
 import numpy as np
