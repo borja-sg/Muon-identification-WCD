@@ -1,3 +1,13 @@
+#!/usr/bin/env python
+
+"""
+ This script produces the plot of the selected CNN model (in this case the best model found)
+"""
+
+__author__ = "Borja Serrano González"
+__email__ = "borjasg@lip.pt"
+
+
 import tensorflow as tf
 import keras.backend.tensorflow_backend as tfback
 from keras.models import Sequential
