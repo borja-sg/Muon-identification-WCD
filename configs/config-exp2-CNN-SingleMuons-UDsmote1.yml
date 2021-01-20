@@ -1,0 +1,17 @@
+global:
+  PMTNUMBER: 4
+  traceLength: 30
+  num_vars: 10 
+  integralTraceLength: 10
+  dataPath: './data'
+  n_folds: 5
+experiment:
+  trainfile: 'protonRndmE_alt5200_invEgen_newconcept_cylindrical_D400H170cm_PMT4D15cmR150cm_Signals-and-Info_+300pe_train_SingleMuons_TL30_N2000.hdf'
+  testfile: 'protonRndmE_alt5200_invEgen_newconcept_cylindrical_D400H170cm_PMT4D15cmR150cm_Signals-and-Info_+300pe_test_TL30_N1694.hdf'
+FE:
+  UD: 'smote'
+  UDfactor: 1 
+  OS: 'No'
+  sorted_rows: 'No'
+  var_selec: 'No'
+  vars2quit: 0
