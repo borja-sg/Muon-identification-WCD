@@ -5,8 +5,8 @@ This repository contains the scripts necessary to obtain the muon probability fr
 
 The following files were used during the experimentation:
  - ExportData_Stations.py -> Script used to export the ROOT simulation file into an hdf. 
- - CNN_train_CV.py -> Script to train the CNN using Cross Validation. It is possible to indicate which variables to select and the preprocessing that is going to be used for the experiment. 
- - XGB-RF_train_CV.py -> Script to train the XGBoost or RandomForest using Cross Validation.
+ - CNN_train_CV.py -> Script to train the CNN using Cross Validation. It is possible to indicate which variables to select and the preprocessing that is going to be used for the experiment. The results of the experiment will be automatically saved in latex tables.
+ - XGB-RF_train_CV.py -> Script to train the XGBoost or RandomForest using Cross Validation. The results of the experiment will be automatically saved in latex tables.
  - ensemble_optimization.py -> Script to combine the CNN models with the XGBoost and produce tables with the results of each ensemble. 
  - plot_best_CNN_model.py -> Script to load the best CNN and plot its structure. 
  - ./models -> Contain the saved models and the figures with the results. 
