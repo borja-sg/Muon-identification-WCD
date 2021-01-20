@@ -1,7 +1,8 @@
 # Muon-identification-WCD
 This repository contains the scripts necessary to obtain the muon probability from WCDs' signals.
 
-##Scripts and files
+## Scripts and files description
+
 The following files were used during the experimentation:
  - ExportData_Stations.py -> Script used to export the ROOT simulation file into an hdf. 
  - CNN_train_CV.py -> Script to train the CNN using Cross Validation. It is possible to indicate which variables to select and the preprocessing that is going to be used for the experiment. 
