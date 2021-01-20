@@ -18,5 +18,7 @@ The following files were used during the experimentation:
  - This simulations contains the WCD information of roughly 3600 vertical proton showers (2000 train and 1600 test) whose primary energy is about 4 TeV, and is currently being used for train and test (each file with ~500 Mb).
  - The simulation files should be saved in ~/data. Optionally the path can be adapted in the configs files.
 
-
-
+Each hdf file contains three data sets accessible with the following "keys":
+ - "Signals": Signal time traces of the PMTs in each WCD. 
+ - "Info_stations": Information about each WCD with signal (>300 p.e.): Id shower, Id station, Number of particles, muons, energy, etc. 
+ - "Info_shower": Information about each shower event: energy, primary, inclination, number of particles, etc. 
