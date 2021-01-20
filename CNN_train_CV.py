@@ -1,5 +1,25 @@
-#This script trains a CNN using a cross validation with 5 folds
-#Inputs: Exp_id, config_file
+#!/usr/bin/env python
+
+"""This script trains a CNN using a cross validation with 5 folds and saves the tables with the results in tex files.
+Inputs: 
+    - Exp_id
+    - Config_file
+    
+    LIST OF EXPERIMENTS (Exp_id to introduce):
+    CNN1                        CNN1: Signals
+    CNN2_AllVars                CNN2: Signals+Integrals+Asymmetry+WCD+NormIntegrals
+    CNN2_AllVars_noAsym         CNN2: Signals+Integrals+WCD+NormIntegrals
+    CNN2_AllVars_Int            CNN2: Signals+Integrals+WCD+Asymmetry
+    CNN2_AllVars_NormInt        CNN2: Signals+NormIntegrals+WCD+Asymmetry
+    CNN2_Asymmetry              CNN2: Signals+Asymmetry
+    CNN2_WCD                    CNN2: Signals+WCD
+    CNN2_Int                    CNN2: Signals+Integrals
+    CNN2_NormInt                CNN2: Signals+NormIntegrals
+    CNN2_NormInt_WCD            CNN2: Signals+Integrals + WCD
+    CNN2_Int_WCD                CNN2: Signals+NormIntegrals + WCD"""
+
+__author__ = "Borja Serrano González"
+__email__ = "borjasg@lip.pt"
 
 import pandas as pd
 import numpy as np
@@ -59,21 +79,6 @@ exp_ID = sys.argv[1]
 print("Experiment ID: ", exp_ID)
 print("Exp. Config.: ", cfg)
 
-"""
-LIST OF EXPERIMENTS:
-CNN1                        CNN1: Signals
-CNN2_AllVars                CNN2: Signals+Integrals+Asymmetry+WCD+NormIntegrals
-CNN2_AllVars_noAsym         CNN2: Signals+Integrals+WCD+NormIntegrals
-CNN2_AllVars_Int            CNN2: Signals+Integrals+WCD+Asymmetry
-CNN2_AllVars_NormInt        CNN2: Signals+NormIntegrals+WCD+Asymmetry
-CNN2_Asymmetry              CNN2: Signals+Asymmetry
-CNN2_WCD                    CNN2: Signals+WCD
-CNN2_Int                    CNN2: Signals+Integrals
-CNN2_NormInt                CNN2: Signals+NormIntegrals
-CNN2_NormInt_WCD            CNN2: Signals+Integrals + WCD
-CNN2_Int_WCD                CNN2: Signals+NormIntegrals + WCD
-"""
-
 #Input exp_ID to select the experiment:
 
 integrate = "yes"
@@ -118,10 +123,7 @@ elif (exp_ID == "CNN2_Int_WCD"):
 
 
 
-
-
-
-#Load congig paramenters from config file
+#Load config paramenters from config file
 PMTNUMBER = cfg['global']['PMTNUMBER']
 traceLength = cfg['global']['traceLength']
 integralTraceLength = cfg['global']['integralTraceLength']
