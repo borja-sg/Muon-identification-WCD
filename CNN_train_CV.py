@@ -18,8 +18,8 @@ Inputs:
     CNN2_NormInt_WCD            CNN2: Signals+Integrals + WCD
     CNN2_Int_WCD                CNN2: Signals+NormIntegrals + WCD"""
 
-__author__ = "Borja Serrano González"
-__email__ = "borjasg@lip.pt"
+__author__ = "Borja Serrano González, Alberto Guillén"
+__email__ = "borjasg@lip.pt, aguillen@ugr.es"
 
 import pandas as pd
 import numpy as np
