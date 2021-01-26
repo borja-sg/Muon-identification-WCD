@@ -4,8 +4,8 @@
  This script saves the data as the 4 traces of each WCD. It also saves some information of every station/shower event.
 """
 
-__author__ = "Borja Serrano González"
-__email__ = "borjasg@lip.pt"
+__author__ = "Borja Serrano González, Alberto Guillén, Ruben Conceiçao"
+__email__ = "borjasg@lip.pt, aguillen@ugr.es, ruben@lip.pt"
 
 import ROOT
 from ROOT import TFile, TTree, TH1D, AddressOf, TCanvas, gPad
