@@ -15,7 +15,7 @@ The following files were used during the experimentation:
 
 ## Simulations
  - The simulations should be downloaded from [here for training](https://drive.google.com/file/d/1LSzuLodCDLr8AaZRpyrOxSi8-Vmwt3W1/view?usp=sharing) and [here for test](https://drive.google.com/file/d/1YXuLaRWpNJ2i7dnPO5IG1irQ0cpcpbXU/view?usp=sharing), into the /data directory.
- - This simulations contains the WCD information of roughly 3600 vertical proton showers (2000 train and 1600 test) whose primary energy is about 4 TeV, and is currently being used for train and test (each file with ~500 MiB).
+ - This simulations contains the WCD information of roughly 3600 vertical proton showers (2000 train and 1600 test) whose primary energy is about 4 TeV, and is currently being used for train and test (each file with ~500 MB).
  - The simulation files should be saved in ~/data. Optionally the path can be adapted in the configs files.
 
 Each hdf file contains three data sets accessible with the following "keys":
