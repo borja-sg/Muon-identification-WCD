@@ -12,6 +12,7 @@ The following files were used during the experimentation:
  - ./models -> Contain the saved models and the figures with the results. 
  - ./tables/CV -> This fold contain the tables in tex format with the results for each model trained using CV. The summary fold contain the mean for each model using all the seeds.
  - ./tables/ensembles -> This fold contain the tables with the results for the ensembles.
+ - ./configs -> Configs files for the experiments.
 
 ## Simulations
  - No data is deposited in this repository given the size of the simulation used. Please, if you wish to download the data, contact the authors.
@@ -26,13 +27,11 @@ Each hdf file contains three data sets accessible with the following "keys":
 
 ## License
 
-
-Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
-
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 [cc-by-nc-sa]: https://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
