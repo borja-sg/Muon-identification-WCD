@@ -6,7 +6,7 @@ Inputs:
     - config_file (./configs/config-exp2-CNN-SingleMuons-OS.yml) 
     - algorithm_to_use: "xgb" for XGBoost and "rf" for RandomForest"""
 
-__author__ = "Borja Serrano González"
+__author__ = "Borja Serrano González, Alberto Guillen"
 __email__ = "borjasg@lip.pt"
 
 import pandas as pd
